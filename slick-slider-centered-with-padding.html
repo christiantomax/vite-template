@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <style>
+            .slick-current figure{
+                padding: 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="slider-centered-container" class="mt-20">
+            <section id="slider-center-container_list" class="w-full">
+            </section>
+        </section>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+
+    <script>
+        $(() => {
+            var container = $("#slider-center-container_list");
+
+            // Loop to create and append items
+            for (var i = 0; i < 10; i++) {
+                // Create a new item
+                var newItem = $("<section class='slider-center-container_item'>" +
+                                    "<figure class='w-full h-[28vh] py-3 px-3 md:h-[37vh] md:px-5 lg:h-[65vh] lg:py-5'>" +
+                                        "<img class='w-full h-full object-cover object-center' src='https://picsum.photos/id/" + (i + 1) + "/200/300' alt='image-gallery' />" +
+                                    "</figure>" +
+                                "</section>");
+
+                // Append the new item to the container
+                container.append(newItem);
+            }
+
+            $('#slider-center-container_list').slick({
+                centerMode: true,
+                centerPadding: '15rem',
+                slidesToShow: 1,
+                infinite: true,
+                dots: false,
+                arrows: false,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        centerPadding: '15rem',
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        centerPadding: '2rem',
+                    }
+                    }
+                ]
+            });
+        })
+    </script>
+</html>

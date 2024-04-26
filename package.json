@@ -1,0 +1,15 @@
+{
+  "name": "component-reusable-chris",
+  "version": "1.0.0",
+  "description": "for component reusable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximillian Christianto",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    </head>
+    <body>
+        <section id="popup-container" class="fixed">
+            <section id="popup-galleries" class="bg-black h-fit min-h-screen pb-12 pt-5">
+                <section class="flex justify-end mb-5 px-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0,0,256,256" class="cursor-pointer" onclick="hiddenModal()">
+                        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M7.71875,6.28125l-1.4375,1.4375l17.28125,17.28125l-17.28125,17.28125l1.4375,1.4375l17.28125,-17.28125l17.28125,17.28125l1.4375,-1.4375l-17.28125,-17.28125l17.28125,-17.28125l-1.4375,-1.4375l-17.28125,17.28125z"></path></g></g>
+                    </svg>
+                </section>
+                <section class="galleries-jumbotron w-screen px-10">
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/1/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/2/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/3/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/4/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/5/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/6/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/7/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/8/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/9/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/11/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/12/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/13/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/14/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/15/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/16/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[73vh] md:h-[75vh]">
+                            <img class="w-full h-full object-cover object-center" src="https://picsum.photos/id/17/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                </section>
+                <section id="slider-controller" class="flex justify-between mt-3 mb-5 px-10">
+                    <p class="text-white">Living Room</p>
+                    <section id="slider-controller-arrows" class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" onclick="prevSlick()" class="cursor-pointer">
+                            <path d="M6.586 12l8.707 8.707-1.414 1.414L4.758 12l9.121-9.121 1.414 1.414L6.586 12z" fill="#FFF"/>
+                        </svg>                    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" onclick="nextSlick()" class="rotate-180 ml-20 cursor-pointer">
+                            <path d="M6.586 12l8.707 8.707-1.414 1.414L4.758 12l9.121-9.121 1.414 1.414L6.586 12z" fill="#FFF"/>
+                        </svg>                    
+                    </section>
+                </section>
+    
+                <section class="galleries-preview w-screen px-10">
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-0 cursor-pointer"  onclick="slickGoTo(0)" src="https://picsum.photos/id/1/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-1 cursor-pointer"  onclick="slickGoTo(1)" src="https://picsum.photos/id/2/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-2 cursor-pointer"  onclick="slickGoTo(2)" src="https://picsum.photos/id/3/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-3 cursor-pointer"  onclick="slickGoTo(3)" src="https://picsum.photos/id/4/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-4 cursor-pointer"  onclick="slickGoTo(4)" src="https://picsum.photos/id/5/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-5 cursor-pointer"  onclick="slickGoTo(5)" src="https://picsum.photos/id/6/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-6 cursor-pointer"  onclick="slickGoTo(6)" src="https://picsum.photos/id/7/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-7 cursor-pointer"  onclick="slickGoTo(7)" src="https://picsum.photos/id/8/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-8 cursor-pointer"  onclick="slickGoTo(8)" src="https://picsum.photos/id/9/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-9 cursor-pointer"  onclick="slickGoTo(9)" src="https://picsum.photos/id/11/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-10 cursor-pointer" onclick="slickGoTo(10)"  src="https://picsum.photos/id/12/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-11 cursor-pointer" onclick="slickGoTo(11)"  src="https://picsum.photos/id/13/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-12 cursor-pointer" onclick="slickGoTo(12)"  src="https://picsum.photos/id/14/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-13 cursor-pointer" onclick="slickGoTo(13)"  src="https://picsum.photos/id/15/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-14 cursor-pointer" onclick="slickGoTo(14)"  src="https://picsum.photos/id/16/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                    <section class="">
+                        <figure class="h-[5rem] xl:h-[6rem] p-2">
+                            <img class="w-full h-full object-cover object-center opacity-20 galleries-skyland galleries-15 cursor-pointer" onclick="slickGoTo(15)"  src="https://picsum.photos/id/17/200/300" alt="image-gallery"/>
+                        </figure>
+                    </section>
+                </section>            
+            </section>
+        </section>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+    <script>
+        let currentIdx = 0, countSlick = 15
+        $('.galleries-preview').slick({
+            infinite: true,
+            slidesToShow: 10,
+            slidesToScroll: 1,
+            arrows: false,
+            centerMode: true,
+            asNavFor: '.galleries-jumbotron',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 7,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.galleries-preview').on('afterChange', function(event, slick, currentSlide, nextSlide){
+            slickGoTo(currentSlide)
+        });
+
+        $('.galleries-jumbotron').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            focusOnSelect: true,
+            asNavFor: '.galleries-preview'
+        });
+
+        function nextSlick(){
+            $('.galleries-preview').slick("slickNext")
+            currentIdx++
+            changeCenterPreview()
+        }
+        function prevSlick(){
+            $('.galleries-preview').slick("slickPrev")
+            currentIdx--
+            changeCenterPreview()
+        }
+        function slickGoTo(idx){
+            $('.galleries-preview').slick("slickGoTo", idx)
+            currentIdx = idx
+            changeCenterPreview()
+        }
+        function changeCenterPreview(){
+            if(currentIdx < 0){
+                currentIdx = countSlick
+            }
+            $('.galleries-skyland').removeClass('opacity-100');
+            $('.galleries-skyland').addClass('opacity-20');
+            $('.galleries-'+currentIdx).addClass('opacity-100');
+        }
+        function hiddenModal () {
+            $('#popup-galleries').addClass('hidden');
+        }
+        function openModal () {
+            $('#popup-galleries').removeClass('hidden');
+        }
+        changeCenterPreview()
+    </script>
+</html>
